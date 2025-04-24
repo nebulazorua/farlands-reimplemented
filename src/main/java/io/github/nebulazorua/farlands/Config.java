@@ -35,7 +35,7 @@ public class Config {
 	@SubscribeEvent
 	static void onLoad(final ModConfigEvent event) {
 		xDistance = FARLAND_DISTANCE_X.get();
-		zDistance = FARLAND_DISTANCE_X.get();
+		zDistance = FARLAND_DISTANCE_Z.get();
 
 	}
 }
