@@ -44,10 +44,10 @@ public class FarlandsBlendedNoiseMixin {
 		boolean inZLands = Mth.abs(ctx.blockZ()) >= Config.zDistance;
 
 		if(inXLands)
-			d0 += Math.signum(ctx.blockX()) * Math.max(0, 12550800 - Config.xDistance) * this.xzMultiplier;
+			d0 += Math.signum(ctx.blockX()) * Math.max(0, 12550825 - Config.xDistance) * this.xzMultiplier;
 
 		if (inZLands)
-			d2 += Math.signum(ctx.blockZ()) * Math.max(0, 12550800 - Config.zDistance) * this.xzMultiplier;
+			d2 += Math.signum(ctx.blockZ()) * Math.max(0, 12550825 - Config.zDistance) * this.xzMultiplier;
 
 		double d3 = d0 / this.xzFactor;
 		double d4 = d1 / this.yFactor;
