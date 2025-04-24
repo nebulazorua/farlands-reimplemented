@@ -1,0 +1,10 @@
+{
+	"required": true,
+	"compatibilityLevel": "JAVA_17",
+	"mixinPriority": 1002,
+	"package": "io.github.nebulazorua.farlands.mixin",
+	"refmap": "mixins.farlands.refmap.json",
+	"mixins": [
+		"FarlandsBlendedNoiseMixin"
+	]
+}
